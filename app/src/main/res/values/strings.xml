@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Weapose</string>
+    <string name="app_name" translatable="false">DVT Weather</string>
     <string name="degrees" translatable="false">%1$d\u00B0</string>
     <string name="degrees_c" translatable="false">%1$s\u2103</string>
 
@@ -51,7 +51,7 @@
     <string name="error_title_permission_not_granted">Error with Permission</string>
     <string name="error_message_permission_not_granted">Permission is not granted!\nPlease grant the permission to continue to using app!</string>
     <string name="error_message_use_case_params_null">The params in %1$s must non-null.</string>
-    <string name="error_message_current_location_is_null">Cannot get the current location!</string>
+    <string name="error_message_current_location_is_null">Cannot get the current location! Please enable your location</string>
     <string name="error_message_current_address_is_not_found">Cannot get the current address!</string>
     <string name="error_message_address_is_not_found">Cannot get the address!</string>
     <string name="error_message_city_is_invalid">City is invalid!</string>

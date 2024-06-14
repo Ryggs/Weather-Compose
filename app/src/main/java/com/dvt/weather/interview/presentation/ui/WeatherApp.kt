@@ -128,7 +128,7 @@ fun ColumnScope.WeatherDrawerContent(
     Row(verticalAlignment = Alignment.CenterVertically) {
         Image(
             modifier = Modifier.size(120.dp),
-            painter = painterResource(id = R.mipmap.ic_launcher_app_foreground),
+            painter = painterResource(id = R.mipmap.ic_launcher_foreground),
             contentDescription = null,
         )
 
