@@ -38,7 +38,7 @@ junit = "4.13.2"
 
 # Google
 google-accompanist = "0.34.0"
-google-dagger = "2.48"
+google-dagger = "2.51.1"
 google-gson = "2.11.0"
 google-maps = "5.0.3"
 google-places = "3.5.0"
