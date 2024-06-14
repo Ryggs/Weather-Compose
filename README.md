@@ -9,7 +9,7 @@ I'm working on implementing **Version Catalog** for the new Gradle versions, but
 ## 🔨 Building the App
 
 - Used the latest version of Android Studio.
-- Add the `BASE_URL`, `API_KEY`, and `MAPS_API_KEY` inside `local.properties` to build and run the Weapose app. The configuration should look like this:
+- Add the `BASE_URL`, `ONECALL_BASE_URL`, `API_KEY`, and `MAPS_API_KEY` inside `local.properties` to build and run the DVT Weather app. Why 2 BASE_URLs you may ask? Well, Open Weather Api 3.0 offers exclusive data to the endpoint One Call and cannot be called through the BAse url wchih is version 2.5 whereas the OneCall api is 3.0. 
 
     ```properties
     BASE_URL=https://api.openweathermap.org/data/2.5/
@@ -37,8 +37,9 @@ I'm working on implementing **Version Catalog** for the new Gradle versions, but
 - Support for dark mode.
 - Support for dynamic material from Android 13 and above.
 - Support for English and Vietnamese.
-- Upcoming features...
-
+- Favorites tab for the places you want to revisit.
+- History of Searched places
+- Dynamic Search function and display ( Basically displays your last search in animation inside the search Box)
 ## 🗂 Module
 
 The Weapose app follows the Clean Architecture model combined with the MVVM design pattern. To learn more, refer to these resources:
@@ -54,7 +55,7 @@ The Weapose app follows the Clean Architecture model combined with the MVVM desi
 
 ## 🚊 Data Flow
 
-The Weapose app uses `Flow` and `suspend` functions for data stream handling in the app.
+The DVTWeather app uses `Flow` and `suspend` functions for data stream handling in the app.
 
 ![Data flow](image/data_flow.png "Data flow")
 
@@ -66,7 +67,7 @@ In the data module, when an error occurs, it is transformed into a `ResponseExce
 
 ## 📝 API Integration Details
 
-The DVT Weather app integrates with the OpenWeather API to fetch current weather and forecasts. Here are the endpoints used:
+The DVTWeather app integrates with the OpenWeather API to fetch current weather and forecasts. Here are the endpoints used:
 
 - **Current Weather**: [OpenWeather Current Weather API](https://openweathermap.org/current)
 - **5-Day Forecast**:This no longer works as of June 2024 as Open Weather Api migrates from 2.5 to 3.0 which was a really tough integration to start with. For reference, check here: [OpenWeather 3.0](https://openweathermap.org/api)
