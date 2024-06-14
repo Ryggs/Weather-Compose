@@ -1,10 +1,10 @@
 # Weather ☀️ Compose
 
-This project demonstrates a weather application that shows the current weather for any location. The **Weapose** app is built using Android Jetpack Compose, MVVM, Clean Architecture, and other modern Android development tools.
+This project demonstrates a weather application that shows the current weather for any location. The **DVT Weather** app is built using Android Jetpack Compose, MVVM, Clean Architecture, and other modern Android development tools.
 
 ## 🚧 In Progress
 
-I'm working on implementing **Version Catalog** for the new Gradle versions, but **Dependabot** does not yet support this feature ([see this](https://github.com/dependabot/dependabot-core/pull/6249)). You can check the progress on the `v1.0.4/version_catalog` branch.
+The **Version Catalog** for the new Gradle version 8.8 works locally but **Dependabot** does not yet support this feature ([see this](https://github.com/dependabot/dependabot-core/pull/6249)). You can check the progress on the `v1.0.4/version_catalog` branch.
 
 ## 🔨 Building the App
 
@@ -42,7 +42,7 @@ I'm working on implementing **Version Catalog** for the new Gradle versions, but
 - Dynamic Search function and display ( Basically displays your last search in animation inside the search Box)
 ## 🗂 Module
 
-The Weapose app follows the Clean Architecture model combined with the MVVM design pattern. To learn more, refer to these resources:
+The DVT Weather app follows the Clean Architecture model combined with the MVVM design pattern. To learn more, refer to these resources:
 
 - [Guide to app architecture by Google Android](https://developer.android.com/jetpack/guide)
 - [Clean Architecture by Uncle Bob](https://blog.cleancoder.com/uncle-bob/2011/11/22/Clean-Architecture.html)
@@ -55,7 +55,7 @@ The Weapose app follows the Clean Architecture model combined with the MVVM desi
 
 ## 🚊 Data Flow
 
-The DVTWeather app uses `Flow` and `suspend` functions for data stream handling in the app.
+The DVT Weather app uses `Flow` and `suspend` functions for data stream handling in the app.
 
 ![Data flow](image/data_flow.png "Data flow")
 
@@ -67,7 +67,7 @@ In the data module, when an error occurs, it is transformed into a `ResponseExce
 
 ## 📝 API Integration Details
 
-The DVTWeather app integrates with the OpenWeather API to fetch current weather and forecasts. Here are the endpoints used:
+The DVT Weather app integrates with the OpenWeather API to fetch current weather and forecasts. Here are the endpoints used:
 
 - **Current Weather**: [OpenWeather Current Weather API](https://openweathermap.org/current)
 - **5-Day Forecast**:This no longer works as of June 2024 as Open Weather Api migrates from 2.5 to 3.0 which was a really tough integration to start with. For reference, check here: [OpenWeather 3.0](https://openweathermap.org/api)
@@ -118,7 +118,6 @@ Kotlin Reflection is used to access private methods and properties, allowing for
 
 Kotlin Kover is a code coverage tool that integrates with Kotlin projects to generate detailed coverage reports.
 
-## 📑 License
 
 
 
