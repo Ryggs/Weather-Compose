@@ -6,9 +6,9 @@ This project demonstrates a weather application that shows the current weather f
 
 I'm working on implementing **Version Catalog** for the new Gradle versions, but **Dependabot** does not yet support this feature ([see this](https://github.com/dependabot/dependabot-core/pull/6249)). You can check the progress on the `v1.0.4/version_catalog` branch.
 
-## 🔨 How to Build the App
+## 🔨 Building the App
 
-- Use the latest version of Android Studio Canary.
+- Used the latest version of Android Studio.
 - Add the `BASE_URL`, `API_KEY`, and `MAPS_API_KEY` inside `local.properties` to build and run the Weapose app. The configuration should look like this:
 
     ```properties
@@ -66,10 +66,10 @@ In the data module, when an error occurs, it is transformed into a `ResponseExce
 
 ## 📝 API Integration Details
 
-The Weapose app integrates with the OpenWeather API to fetch current weather and forecasts. Here are the endpoints used:
+The DVT Weather app integrates with the OpenWeather API to fetch current weather and forecasts. Here are the endpoints used:
 
 - **Current Weather**: [OpenWeather Current Weather API](https://openweathermap.org/current)
-- **5-Day Forecast**: [OpenWeather 5-Day Forecast API](https://openweathermap.org/forecast5)
+- **5-Day Forecast**:This no longer works as of June 2024 as Open Weather Api migrates from 2.5 to 3.0 which was a really tough integration to start with. For reference, check here: [OpenWeather 3.0](https://openweathermap.org/api)
 - **One Call API**: The One Call API is used to get weather data for different time ranges, such as current, hourly, and daily forecasts. [OpenWeather One Call API](https://openweathermap.org/api/one-call-api)
 
 ### Handling Different Endpoints
