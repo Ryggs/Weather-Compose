@@ -93,7 +93,7 @@ androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifec
 androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 
 # AndroidX LiveData
-androidx-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version = "1.6.7" }
+androidx-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version = "1.6.8" }
 
 # AndroidX Navigation
 androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidx-navigation" }
