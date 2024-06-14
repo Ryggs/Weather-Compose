@@ -1,0 +1,3 @@
+-keepattributes SourceFile,LineNumberTable
+-keep public class * extends java.lang.Throwable
+-keep public class * extends com.dvt.weather.interview.data.exception.ResponseException
