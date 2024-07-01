@@ -43,7 +43,7 @@ google-gson = "2.11.0"
 google-maps = "5.0.3"
 google-places = "3.5.0"
 google-services-location = "21.3.0"
-google-services-maps = "18.2.0"
+google-services-maps = "19.0.0"
 
 # Lottie
 lottie = "6.4.1"
