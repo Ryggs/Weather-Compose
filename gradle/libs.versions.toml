@@ -46,7 +46,7 @@ google-services-location = "21.3.0"
 google-services-maps = "18.2.0"
 
 # Lottie
-lottie = "6.4.1"
+lottie = "6.5.1"
 
 # MockK
 mockK = "1.13.11"
