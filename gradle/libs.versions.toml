@@ -11,7 +11,7 @@ kotlin-jvm = "1.9.20"
 
 # AndroidX
 androidx-activity = "1.9.0"
-androidx-compose = "1.6.7"
+androidx-compose = "1.6.8"
 androidx-compose-material-3 = "1.2.1"
 androidx-compose-bom = "2024.05.00"
 androidx-core = "1.13.1"
